@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form Nurul Akmal Shafiqah Binti Mohd Zaidi</title>
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1 id="title">Survey Form Nurul Akmal Shafiqah</h1>
+    <p id="description">This is my first time making this survey form</p>
+
+    <form id="survey-form">
+
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" name="name" required placeholder="Please enter your name" />
+
+      <label id="email-label" for="email">Email</label>
+      <input id="email" type="email" name="email" required placeholder="Please enter your email" />
+
+      <label id="number-label" for="number">Number Matric</label>
+      <input id="number" type="number" name="number" min="10" max="20" required placeholder="Please enter your matric number" />
+
+      <label for="dropdown">What is your class?</label>
+      <select id="dropdown" name="class">
+        <option value="cdcs2704b1">CDCS2704B1</option>
+        <option value="cdcs2704b2">CDCS2704B2</option>
+      </select>
+
+      <fieldset>
+        <legend>What is your student code?</legend>
+        <label>
+          <input type="radio" name="code" value="cdcs270" required /> CDCS270
+        </label>
+        <label>
+          <input type="radio" name="code" value="cdcs230" /> CDCS230
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What is your course code this semester?</legend>
+        <label><input type="checkbox" name="courses" value="CSC510" /> Discrete Structures</label>
+        <label><input type="checkbox" name="courses" value="CSC578" /> Responsive Web Application Development</label>
+        <label><input type="checkbox" name="courses" value="CSC577" /> Software Engineering - Theories And Principles</label>
+        <label><input type="checkbox" name="courses" value="ICT504" /> Mobile Database</label>
+        <label><input type="checkbox" name="courses" value="ICT602" /> Mobile Technology And Development</label>
+      </fieldset>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" placeholder="Tell us more..." rows="4" cols="30"></textarea>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+
+<div class="sparkles">
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+</div>
+
+</body>
+</html>
